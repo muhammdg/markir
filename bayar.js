@@ -23,7 +23,7 @@ function alertos(){
 }
 
 setInterval(function masuk() {
-    fetch("http://localhost:8080/api")
+    fetch("https://markir.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
