@@ -1,0 +1,21 @@
+{
+  "name": "smart-parking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antares-http": "^1.0.4",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;;
+}
+
+nav{
+    display: flex;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 1cm;
+}
+
+h2{
+    font-size: 14px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+.container .card{
+    padding: 2rem 1rem;
+    border-radius: 20px;
+
+    width: 8cm;
+    height: 4cm;
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 1.75cm;
+}
+
+.container2 .card{
+    padding: 2rem 1rem;
+    border-radius: 20px;
+
+    width: 8cm;
+    height: 6cm;
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+
+    transition: .5s;
+    padding: 6px;
+}
+
+input[type="text"]{
+    border-radius: 20px;
+    width: 250px;
+    padding-left: 10px;
+
+    outline: none;
+    border: none;
+    background: #DEDEDE;
+}
+
+input[type="submit"]{
+    border-radius: 20px;
+    top: 10px;
+    color: #ffffff;
+
+    position: relative;
+    outline: none;
+    border: none;
+    background: #307FE2;
+    
+    height: 35px;
+    width: 80px;
+    font-size: 12px;
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px;
+    min-height:100px;
+    max-height:100px;
+  }
+  
+  .content {
+    position:relative;
+    height:2vh;
+    text-align:center;
+    background-color: white;
+    opacity: 0.8;
+  }
+  
+  /* Animation */
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height:80px;
+      min-height:60px;
+    }
+    .content {
+      height:2vh;
+    }
+  }
+  
+  p {
+    letter-spacing: 3px;
+    font-size:12px;
+    color: #333333;
+  }
+

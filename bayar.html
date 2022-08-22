@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bayar.css">
+
+    <!-- js -->
+    <script src="bayar.js" defer></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Smart Parking | Markir</title>
+  </head>
+  <body>
+
+    <!-- Heading -->
+    <nav class="container-fluid">
+        <div class="col text-center">
+          <h2 class="heading" style="font-weight: bold;">Markir</h2>
+        </div>
+    </nav>
+
+    <!-- Card 2 -->
+    <div class="container2">
+      <div class="card">
+        <div class="content2" style="font-weight: bold;">
+          <span>Parking Ticket</span>
+        </div>
+        <div class="content3" style="padding-top: 40px; display: flex;">
+            <img class="img" src="img/SmartHome.png" alt="" style="width: 200px; height: 200px;">
+        </div>
+        <div class="content4 text-center" style="padding-top: 10px;">
+          <h3>087875649191 (Muhammad Gilang Adhi Prasetyo)</h3>
+        </div>
+        <div class="content5" style="padding-top: 10px; display: flex;">
+            <h2 style="margin: 10px 0 0 0;">Waktu Masuk</h2>
+            <h2 id="masuk" style="margin: 10px 0 0 69px;">--</h2>
+        </div>
+        <div class="content6" style="padding-top: 10px; display: flex;">
+          <h2 style="margin: 10px 0 0 0;">Waktu Sekarang</h2>
+          <h2 id="jam" style="margin: 10px 0 0 47px;">00</h2>
+          <span style="margin: 6px 0 0 0;">:</span>
+          <h2 id="menit" style="margin: 10px 0 0 4px;">00</h2>
+          <span style="margin: 6px 0 0 0;">:</span>
+          <h2 id="detik" style="margin: 10px 0 0 4px;">00</h2>
+        </div>
+        <div class="content7" style="padding-top: 40px; display: flex;">
+          <div class="col">
+            <h3>Total Pembayaran</h3>
+            <h2 id="biaya">--</h2>
+          </div>
+          <button class="btn" type="button" onclick="alertos()">
+            <a href="https://link.dana.id/qr/dorjn43" style="color: #ffffff;">Bayar</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- By Kelompok 3 -->
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="#def3f6" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="#7fcdff" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="#1da2d8" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#ffffff" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="content flex" style="font-weight: bold;">
+      <p>By Kelompok 3</p>
+    </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
